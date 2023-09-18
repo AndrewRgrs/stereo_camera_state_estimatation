@@ -3,4 +3,4 @@ The goal of this project was to estimate the state $(x,y,z,\theta)$ of a vehicle
 
 The batch Gauss-Newton method was implemented to fuse measurements from the IMU with point measurments from the stereo camera. Since the vehicle could freely translate and rotate through the three-dimensional space, the sets of transformation and rotation matricies used to represent the vehicles position over time were matrix Lie groups $SE(3)$ and $SO(3)$. 
 
-This project was completed as a project for one of my graduate courses.
+This project was completed as a project for one of my graduate courses. The implementation of the batch Gauss-Newton estimator can be found in the *Assignment3.m* file. Additionally a sliding window estimator can be found in the *Assignment3_SlidingWindow.m* file. 
